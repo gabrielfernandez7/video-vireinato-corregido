@@ -1,46 +1,118 @@
-body {
-    background-color: rgb(52, 121, 103);
-    padding: 10px;
-    font-size: 1.5em;
-}
-header
-{
-    
-    color:rgb(203, 203, 238) ;
-}
-p{
-    text-align: left;
-    padding: 10px;
-}
-li{
-    padding: 10px;
-}
-nav{
-    text-decoration: none;
-    color: rgb(32, 100, 77);
-    
-}
-nav a{
-    text-decoration: none;
-}
-article{
-     padding: 10px;
-     /* border: 10px solid red; */
-}
-.justificar{
-    text-align: center;
-    
-    text-wrap: wrap;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.imagen{
-    display: block;
-    text-align: center;
-    padding-top: 10px;
-    
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #a2cee2;
+    color: #333;
 }
-.iframe
-{
-    display: block;
+
+header {
+    background-color: #1a2a6c;
+    color: rgb(226, 207, 207);
+    padding: 20px 0;
     text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #4a90e2;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: #005bbb;
+    transform: scale(1.1);
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+article {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1a2a6c;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.imagen {
+    text-align: center;
+}
+
+span {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.iframe {
+    margin-top: 40px;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 10px;
+    border: none;
+}
+
+footer {
+    background-color: #1a2a6c;
+    color: rgb(232, 224, 224);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    font-size: 1rem;
+}
+
+.justificar {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
